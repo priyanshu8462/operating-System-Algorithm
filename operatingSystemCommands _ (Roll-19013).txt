@@ -1,0 +1,36 @@
+			OPERATING SYSTEM COMMANDS 
+			=========================
+
+ > $ date : provides current date and in format : [ Tue Aug 11 07:59:45 UTC 2020 ]
+
+ > $ echo $shell : gives detail of shell
+
+ > $ date +%A : gives current weekday 
+ 
+ > $ cal : gives current month
+
+ > $ cal man : displays manual for cal command
+	i.) -m : displays specified month  : cal -m jan shows calendar for january month
+       ii.) -y : displays a calendar for the specified year. : cal -y 2022 shows calender for year 2021
+      iii.) -3 : displays the previous, current and next month surrounding today : cal -3
+       iv.) -1 : displays only the current month. 
+	v.) (ncal) -w : Print the number of the week below each week column.
+
+ > $ pwd : print working directory.	
+
+ > $ mkdir <directory_name> : create a woring a directory
+ 
+ > $ rmdir <directory_name> : remove a directory	
+
+ > $ cd : move to a certain directory
+	i.) cd <filename> : file must be just below the current directory
+       ii.) cd <path> : path can be relative or absolute
+      iii.) cd .. : move one directory behind
+       iv.) ls : gives all the directories that are child of current directory
+
+ > $ who : gives list of all current users
+
+ > $ ps	 
+
+
+	* NOTE : '$' is shell prompt.
